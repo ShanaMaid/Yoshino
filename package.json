@@ -1,6 +1,6 @@
 {
   "name": "yoshino",
-  "version": "0.8.25",
+  "version": "0.8.26",
   "description": " A customizable PC terminal component library based on react which has strong expansibility, it can output corresponding components according to different business scenarios.",
   "main": "lib/index",
   "module": "es6/index",

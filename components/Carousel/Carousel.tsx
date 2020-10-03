@@ -63,7 +63,7 @@ export class Carousel extends Component<ICarouselProps, ICarouselState> {
     document.body.addEventListener('resize', this.setContainerBound);
   }
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     document.body.removeEventListener('resize', this.setContainerBound);
   }
 

@@ -52,7 +52,7 @@ export class AutoComplete extends Component<IAutoCompleteProps, IAutoCompleteSta
     value: this.props.defaultValue!,
   };
 
-  componentWillReceiveProps(netxProps: IAutoCompleteProps) {
+  UNSAFE_componentWillReceiveProps(netxProps: IAutoCompleteProps) {
     const { dataSource } = this.props;
     const { dataSource: nextDataSource } = netxProps;
     if (JSON.stringify(dataSource) !== JSON.stringify(nextDataSource)) {

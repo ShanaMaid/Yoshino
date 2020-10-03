@@ -48,7 +48,7 @@ export class Icon extends Component<IIconProps, IIconState> {
     });
   }
 
-  async componentWillReceiveProps(props: IIconProps) {
+  async UNSAFE_componentWillReceiveProps(props: IIconProps) {
     if (!props.type) {
       return;
     }
